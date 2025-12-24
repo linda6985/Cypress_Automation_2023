@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "cypress": "^15.7.1",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "cypress-real-events": "^1.15.0",
+    "cypress-xpath": "^2.0.1",
+    "mochawesome": "^7.1.4"
+  },
+  "scripts": {
+    "braveTest": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Day1_121525/brave-search.cy.js'",
+    "regression": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Regression/*.cy.js'",
+    "braveTestLoop": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Day2_121625/brave-search-loop.cy.js'",
+    "cypressAI01": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/AI01/*'",
+    "braveTestHeadless": "npx cypress run --browser chrome --spec 'cypress/e2e/ActionItem/brave-search.cy.js'"
+  }
+}
