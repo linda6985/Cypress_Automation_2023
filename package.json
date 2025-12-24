@@ -11,6 +11,6 @@
     "regression": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Regression/*.cy.js'",
     "braveTestLoop": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Day2_121625/brave-search-loop.cy.js'",
     "cypressAI01": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/AI01/*'",
-    "braveTestHeadless": "npm cypress run --browser chrome --spec 'cypress/e2e/ActionItem/brave-search.cy.js'"
+    "braveTestHeadless": "npx cypress run --browser chrome --spec 'cypress/e2e/Actionitem/brave-search.cy.js'"
   }
 }
